@@ -1,137 +1,88 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f8f9fa;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-/* 头部样式 */
-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 1rem 0;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-header h1 {
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
-}
-
-nav {
-    display: flex;
-    gap: 2rem;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-}
-
-nav a:hover {
-    background-color: rgba(255,255,255,0.2);
-}
-
-/* 横幅样式 */
-.banner {
-    background: linear-gradient(45deg, #ff6b6b, #ee5a24);
-    color: white;
-    padding: 3rem 2rem;
-    text-align: center;
-    border-radius: 10px;
-    margin: 2rem 0;
-}
-
-.banner h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
-
-.banner p {
-    font-size: 1.2rem;
-    opacity: 0.9;
-}
-
-/* 商品区域 */
-.products {
-    margin: 3rem 0;
-}
-
-.products h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    color: #2c3e50;
-}
-
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-}
-
-.product-card {
-    background: white;
-    border-radius: 10px;
-    padding: 1.5rem;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    text-align: center;
-}
-
-.product-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-}
-
-.product-card h3 {
-    color: #2c3e50;
-    margin-bottom: 1rem;
-}
-
-.product-price {
-    font-size: 1.5rem;
-    color: #e74c3c;
-    font-weight: bold;
-    margin: 1rem 0;
-}
-
-.add-to-cart {
-    background: #3498db;
-    color: white;
-    border: none;
-    padding: 0.8rem 1.5rem;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s;
-    width: 100%;
-}
-
-.add-to-cart:hover {
-    background: #2980b9;
-}
-
-/* 底部样式 */
-footer {
-    background: #34495e;
-    color: white;
-    text-align: center;
-    padding: 2rem 0;
-    margin-top: 3rem;
-}
+/* 1.顶部 */
+/* 顶部外层容器 */
+  .topbar{
+        height: 28px;
+        background-color: #101010;
+  }
+/* 顶部内层容器 */  
+  .topbar .container{
+        height: 28px;
+        background-color: #101010;
+  }
+/* 里面的p标签 */
+  .topbar .container p{
+        height: 28px;
+        line-height: 28px;
+        color: #f1f1f1;
+  }
+/* 第一个p标签 */
+  .topbar .container p:first-child{
+        text-indent: 210px;
+  }
+/* 第一个p标签下面的a标签 */
+  .topbar .container p:first-child a{
+        color: #fff;
+        text-decoration: none;
+  }
+/* 第二个p标签 */
+  .topbar .container p:first-child(2){
+        margin-right: 10px;
+  }
+/* 第二个p标签下面的标题和注册 */
+  .topbar .container p:first-child(2) a:not(.login){
+        color: #ff6700;
+  }
+/* 第二个p标签下面的登陆 */
+  .topbar .container p:first-child(2) .login{
+        color: #fff;
+  }
+  /* 2.导航 */
+  .nav{
+        height: 500px;
+        background-color: #ccc;
+  }
+  /* 3.分类导航和banner */
+  .menu{
+        height: 500px;
+        background-color: #000;
+  }
+  /* 4.今日推荐 */
+  .recommend{
+        height: 500px;
+        background-color: #ccc;
+  }
+  /* 5.电子书 */
+  .ebooks{
+        height: 500px;
+        background-color: #000;
+  }
+  /* 6.服装 */
+  .clothes{
+        height: 500px;
+        background-color: #ccc;
+  }
+  /* 7.户外运动 */
+  .sport{
+        height: 500px;
+        background-color: #000;
+  }
+  /* 8.童装 */
+  .children-clothes{
+        height: 500px;
+        background-color: #ccc;
+  }
+  /* 9.家具日用 */
+  .daily{
+        height: 500px;
+        background-color: #000;
+  }
+  /* 10.推广商品 */
+  .promotion{
+        height: 500px;
+        background-color: #ccc;
+  }
+  /* 11.尾部 */
+  .footer{
+        height: 500px;
+        background-color: #000;
+  }
