@@ -2,32 +2,686 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"/>
     <title>乐购商城(legou.com)-正品低价、品质保障、配送及时、轻松购物！</title>
     <meta name="description"
           content="乐购商城legou.com-专业的综合网上购物商城，为您提供正品低价的购物选择、优质便捷的服务体验。商品来自全球数十万品牌商家，囊括家电、手机、电脑、服装、居家、母婴、美妆、个护、食品、生鲜等丰富品类，满足各种购物需求。"/>
     <meta name="Keywords" content="网上购物,网上商城,家电,手机,电脑,服装,居家,母婴,美妆,个护,食品,生鲜,乐购商城"/>
     <!-- 引入样式 -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/slider.css">
 </head>
 <body>
     <!-- 1.顶部 -->
-    <div class="topbar container"></div>
-        <!-- 内容容器 -->
-         <div class="container">
-            <p class="fl"><a href="#">www.legou.com</a></p>
-            <p class="fr"><span>欢迎光临<a class="title" href="#">乐购商城</a></span>,<span>请<a href="#" class="login">登陆</a>\<a class="register" href="#">注册</a></span></p>
-         </div>
+    <div class="topbar">
+        <!-- 内部容器 -->
+        <div class="container">
+            <p class="fl"><a href="#">www.legoup.com</a></p>
+            <p class="fr"><span>欢迎光临<a href="#" class="title">乐购</a></span>,
+                <span>请<a href="#" class="login">登录</a>\<a href="#" class="register">注册</a></span>
+            </p>
+        </div>
+    </div>
+
     <!-- 2.导航 -->
-    <div class="nav container"></div>
+    <div class="nav container">
+        <!-- 搜索框&购物车&订单 -->
+        <div class="search-shopcart-order clearfix">
+            <!-- 购物车&订单 -->
+            <div class="shopcart-order fr">
+                <button><span></span><span>购物车</span><span>3</span></button>
+                <button>我的订单</button>
+            </div>
+            <!-- 搜索框 -->
+            <div class="search-input fr">
+                <input class="search" type="text" placeholder="创意文具">
+                <span></span>
+            </div>
+        </div>
+        <!-- 分类菜单 -->
+        <div class="category-menu clearfix">
+            <!-- 左侧 -->
+            <div class="left-logo fl">
+                <img src="./images//logo.jpg" alt="">
+            </div>
+            <!-- 右侧 -->
+            <ul class="fr clearfix">
+                <li>图书</li>
+                <li>图书</li>
+                <li>图书</li>
+                <li>图书</li>
+                <li>图书</li>
+                <li>图书</li>
+                <li>图书</li>
+                <li>图书</li>
+                <li>图书</li>
+                <li>图书</li>
+                <li>图书</li>
+            </ul>
+        </div>
+    </div>
     <!-- 3.分类导航和banner -->
-    <div class="menu container"></div>
+    <div class="menu container clearfix">
+        <!-- 左侧导航 -->
+        <div class="sideMenu fl">
+            <ul>
+                <li>
+                    <!-- 1级导航 -->
+                    <p class="title">
+                        <a href="#">图书</a>·<a href="#">电子书</a>·<a href="#">儿童书</a>
+                    </p>
+                    <!-- 二级导航 -->
+                    <div class="subMenu">
+                        子菜单1
+                    </div>
+                </li>
+                <li>
+                    <!-- 1级导航 -->
+                    <p class="title">
+                        <a href="#">图书</a>·<a href="#">电子书</a>·<a href="#">儿童书</a>
+                    </p>
+                    <!-- 二级导航 -->
+                    <div class="subMenu">
+                        子菜单2
+                    </div>
+                </li>
+                <li>
+                    <!-- 1级导航 -->
+                    <p class="title">
+                        <a href="#">图书</a>·<a href="#">电子书</a>·<a href="#">儿童书</a>
+                    </p>
+                    <!-- 二级导航 -->
+                    <div class="subMenu">
+                        子菜单3
+                    </div>
+                </li>
+                <li>
+                    <!-- 1级导航 -->
+                    <p class="title">
+                        <a href="#">图书</a>·<a href="#">电子书</a>·<a href="#">儿童书</a>
+                    </p>
+                    <!-- 二级导航 -->
+                    <div class="subMenu">
+                        子菜单1
+                    </div>
+                </li>
+                <li>
+                    <!-- 1级导航 -->
+                    <p class="title">
+                        <a href="#">图书</a>·<a href="#">电子书</a>·<a href="#">儿童书</a>
+                    </p>
+                    <!-- 二级导航 -->
+                    <div class="subMenu">
+                        子菜单1
+                    </div>
+                </li>
+                <li>
+                    <!-- 1级导航 -->
+                    <p class="title">
+                        <a href="#">图书</a>·<a href="#">电子书</a>·<a href="#">儿童书</a>
+                    </p>
+                    <!-- 二级导航 -->
+                    <div class="subMenu">
+                        子菜单1
+                    </div>
+                </li>
+                <li>
+                    <!-- 1级导航 -->
+                    <p class="title">
+                        <a href="#">图书</a>·<a href="#">电子书</a>·<a href="#">儿童书</a>
+                    </p>
+                    <!-- 二级导航 -->
+                    <div class="subMenu">
+                        子菜单1
+                    </div>
+                </li>
+                <li>
+                    <!-- 1级导航 -->
+                    <p class="title">
+                        <a href="#">图书</a>·<a href="#">电子书</a>·<a href="#">儿童书</a>
+                    </p>
+                    <!-- 二级导航 -->
+                    <div class="subMenu">
+                        子菜单1
+                    </div>
+                </li>
+                <li>
+                    <!-- 1级导航 -->
+                    <p class="title">
+                        <a href="#">图书</a>·<a href="#">电子书</a>·<a href="#">儿童书</a>
+                    </p>
+                    <!-- 二级导航 -->
+                    <div class="subMenu">
+                        子菜单1
+                    </div>
+                </li>
+                <li>
+                    <!-- 1级导航 -->
+                    <p class="title">
+                        <a href="#">图书</a>·<a href="#">电子书</a>·<a href="#">儿童书</a>
+                    </p>
+                    <!-- 二级导航 -->
+                    <div class="subMenu">
+                        子菜单1
+                    </div>
+                </li>
+                <li>
+                    <!-- 1级导航 -->
+                    <p class="title">
+                        <a href="#">图书</a>·<a href="#">电子书</a>·<a href="#">儿童书</a>
+                    </p>
+                    <!-- 二级导航 -->
+                    <div class="subMenu">
+                        子菜单1
+                    </div>
+                </li>
+                <li>
+                    <!-- 1级导航 -->
+                    <p class="title">
+                        <a href="#">图书</a>·<a href="#">电子书</a>·<a href="#">儿童书</a>
+                    </p>
+                    <!-- 二级导航 -->
+                    <div class="subMenu">
+                        子菜单1
+                    </div>
+                </li>
+                <li>
+                    <!-- 1级导航 -->
+                    <p class="title">
+                        <a href="#">图书</a>·<a href="#">电子书</a>·<a href="#">儿童书</a>
+                    </p>
+                    <!-- 二级导航 -->
+                    <div class="subMenu">
+                        子菜单1
+                    </div>
+                </li>
+                <li>
+                    <!-- 1级导航 -->
+                    <p class="title">
+                        <a href="#">图书</a>·<a href="#">电子书</a>·<a href="#">儿童书</a>
+                    </p>
+                    <!-- 二级导航 -->
+                    <div class="subMenu">
+                        子菜单1
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- 右侧banner -->
+        <div class="banner fr">
+            <!-- 轮播容器 -->
+		    <div class="pptbox" id="banner">
+			<!--轮播的内容-->
+			<ul class="innerwrapper">
+				<li>
+					<a href="#"><img src="images/pp1_05.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/banner2.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/banner3.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/banner4.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/banner5.jpg" /></a>
+				</li>
+                <li>
+                    <a href="#"><img src="images/banner1.jpg" /></a>
+                </li>
+			</ul>
+			<!--数字控制器-->
+			<ul class="controls">
+				<li class="current">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+                <li>6</li>
+			</ul>
+			<!--按钮控制器-->
+			<span class="btnleft"></span>
+			<span class="btnright"></span>
+            </div>
+		</div>
+    </div>
+
     <!-- 4.今日推荐 -->
-    <div class="recommend container"></div>
+    <div class="recmmend container">
+        <!-- 标题 -->
+        <h1 class="title">
+            乐购·今日推荐
+        </h1>
+        <!-- 推荐内容 -->
+        <div class="recmmend-content">
+            <ul>
+                <li>
+                    <img src="images/mouse.jpg" alt="">
+                    <p class="limit-time"><img src="images/limitTime.jpg" alt=""></p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
+                    <p class="text">全国联保 一年免费包换</p>
+                    <p class="price">&yen;:299</p>
+                </li>
+                <li>
+                    <img src="images/mouse.jpg" alt="">
+                    <p class="limit-time"><img src="images/limitTime.jpg" alt=""></p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
+                    <p class="text">全国联保 一年免费包换</p>
+                    <p class="price">&yen;:299</p>
+                </li>
+                <li>
+                    <img src="images/mouse.jpg" alt="">
+                    <p class="limit-time"><img src="images/limitTime.jpg" alt=""></p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
+                    <p class="text">全国联保 一年免费包换</p>
+                    <p class="price">&yen;:299</p>
+                </li>
+                <li>
+                    <img src="images/mouse.jpg" alt="">
+                    <p class="limit-time"><img src="images/limitTime.jpg" alt=""></p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
+                    <p class="text">全国联保 一年免费包换</p>
+                    <p class="price">&yen;:299</p>
+                </li>
+                <li>
+                    <img src="images/mouse.jpg" alt="">
+                    <p class="limit-time"><img src="images/limitTime.jpg" alt=""></p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
+                    <p class="text">全国联保 一年免费包换</p>
+                    <p class="price">&yen;:299</p>
+                </li>
+                <li>
+                    <img src="images/mouse.jpg" alt="">
+                    <p class="limit-time"><img src="images/limitTime.jpg" alt=""></p>
+                    <p class="desc">黑爵青蜂侠六键电竞游戏鼠标</p>
+                    <p class="text">全国联保 一年免费包换</p>
+                    <p class="price">&yen;:299</p>
+                </li>
+                <li>
+                    <img src="images/index06_11.jpg" alt="">
+                    <p class="limit-time"><img src="images/limitTime.jpg" alt=""></p>
+                    <p class="desc">小米家用静音加湿器</p>
+                    <p class="text">唯美外观 微米级喷雾</p>
+                    <p class="price">&yen;:89</p>
+                </li>
+                <li>
+                    <img src="images/index06_11.jpg" alt="">
+                    <p class="limit-time"><img src="images/limitTime.jpg" alt=""></p>
+                    <p class="desc">小米家用静音加湿器</p>
+                    <p class="text">唯美外观 微米级喷雾</p>
+                    <p class="price">&yen;:89</p>
+                </li>
+                <li>
+                    <img src="images/index06_11.jpg" alt="">
+                    <p class="limit-time"><img src="images/limitTime.jpg" alt=""></p>
+                    <p class="desc">小米家用静音加湿器</p>
+                    <p class="text">唯美外观 微米级喷雾</p>
+                    <p class="price">&yen;:89</p>
+                </li>
+                <li>
+                    <img src="images/index06_11.jpg" alt="">
+                    <p class="limit-time"><img src="images/limitTime.jpg" alt=""></p>
+                    <p class="desc">小米家用静音加湿器</p>
+                    <p class="text">唯美外观 微米级喷雾</p>
+                    <p class="price">&yen;:89</p>
+                </li>
+                <li>
+                    <img src="images/index06_11.jpg" alt="">
+                    <p class="limit-time"><img src="images/limitTime.jpg" alt=""></p>
+                    <p class="desc">小米家用静音加湿器</p>
+                    <p class="text">唯美外观 微米级喷雾</p>
+                    <p class="price">&yen;:89</p>
+                </li>
+                <li>
+                    <img src="images/index06_11.jpg" alt="">
+                    <p class="limit-time"><img src="images/limitTime.jpg" alt=""></p>
+                    <p class="desc">小米家用静音加湿器</p>
+                    <p class="text">唯美外观 微米级喷雾</p>
+                    <p class="price">&yen;:89</p>
+                </li>
+            </ul>
+        </div>
+    </div>
     <!-- 5.电子书 -->
-    <div class="ebooks container"></div>
+    <div class="ebooks container clearfix">
+        <!-- 左侧盒子 -->
+         <div class="left-box fl">
+            <!-- 顶部 -->
+             <div class="top clearfix">
+                <!-- 标题 -->
+                 <h1 class="title fl">
+                    图书·电子书
+                 </h1>
+                 <!-- 导航 -->
+                  <ul class="fr ebooks-nav">
+                    <li class="active">最新上架</li>
+                    <li>独家畅销</li>
+                    <li>电子书</li>
+                  </ul>
+             </div>
+            <!-- 内容 -->
+             <div class="content clearfix">
+                <!-- 左侧广告 -->
+                 <div class="ads fl">
+                    <div class="top-img">
+                        <img src="./images/index7_07.jpg" alt="">
+                    </div>
+                    <div class="bottom-text">
+                        <ul>
+                            <li>文学1</li>
+                            <li>文学1</li>
+                            <li>文学1</li>
+                            <li>文学1</li>
+                            <li>文学1</li>
+                            <li>文学1</li>
+                            <li>文学1</li>
+                            <li>文学1</li>
+                            <li>文学1</li>
+                            <li>文学1</li>
+                            <li>文学1</li>                            
+                        </ul>
+                    </div>
+                 </div>
+                 <!-- 右侧列表 -->
+                  <!-- 1 -->
+                  <div class="ebooks-list fr">
+                        <ul>
+                            <li>
+                                <!-- 轮播容器 -->
+		<div class="pptbox ebooks-banner">
+			<!--轮播的内容-->
+			<ul class="innerwrapper">
+				<li>
+					<a href="#"><img src="images/pp1_05.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/banner2.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/banner3.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/banner4.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/banner5.jpg" /></a>
+				</li>
+                <li>
+                    <a href="#"><img src="images/banner1.jpg" /></a>
+                </li>
+			</ul>
+
+			<!--数字控制器-->
+			<ul class="controls">
+				<li class="current">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+                <li>6</li>
+			</ul>
+
+			<!--按钮控制器-->
+			<span class="btnleft"></span>
+			<span class="btnright"></span>
+        </div>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>                      
+                        </ul>
+                  </div>
+                  <!-- 2 -->
+                  <div class="ebooks-list fr">
+                        <ul>
+                            <li>
+                                <!-- 轮播容器 -->
+		<div class="pptbox ebooks-banner">
+			<!--轮播的内容-->
+			<ul class="innerwrapper">
+				<li>
+					<a href="#"><img src="images/pp1_05.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/banner2.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/banner3.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/banner4.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/banner5.jpg" /></a>
+				</li>
+                <li>
+                    <a href="#"><img src="images/banner1.jpg" /></a>
+                </li>
+			</ul>
+
+			<!--数字控制器-->
+			<ul class="controls">
+				<li class="current">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+                <li>6</li>
+			</ul>
+
+			<!--按钮控制器-->
+			<span class="btnleft"></span>
+			<span class="btnright"></span>
+        </div>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>                      
+                        </ul>
+                  </div>
+                  <!-- 3 -->
+                  <div class="ebooks-list fr">
+                        <ul>
+                            <li>
+                                <!-- 轮播容器 -->
+		<div class="pptbox ebooks-banner">
+			<!--轮播的内容-->
+			<ul class="innerwrapper">
+				<li>
+					<a href="#"><img src="images/pp1_05.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/banner2.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/banner3.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/banner4.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/banner5.jpg" /></a>
+				</li>
+                <li>
+                    <a href="#"><img src="images/banner1.jpg" /></a>
+                </li>
+			</ul>
+
+			<!--数字控制器-->
+			<ul class="controls">
+				<li class="current">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+                <li>6</li>
+			</ul>
+
+			<!--按钮控制器-->
+			<span class="btnleft"></span>
+			<span class="btnright"></span>
+        </div>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>
+                            <li>
+                                <p class="title">奥运狂欢</p>
+                                <p class="promotion-text">10万种电子书 直降40%</p>
+                                <img src="./images/ebooks-list.jpg" alt="">
+                                <p class="price">&yen; :49</p>
+                            </li>                      
+                        </ul>
+                  </div>
+             </div>
+         </div>
+        <!-- 右侧盒子 -->
+         <div class="right-box fr">
+            <!-- 标题 -->
+             <h3 class="title">新书畅销榜</h3>
+                <ul>
+                    <li>
+                        <p class="ebooks-title">1 就喜欢你看不惯我  又不干...</p>
+                        <p class="clearfix desc">
+                            <img class="fl" src="./images/index08_05.jpg" alt="">从你的全世界路过从你的全世界路过从你的全世界路过从你的全世界路过从你的全世界路过...
+                        </p>
+                    </li>
+                    <li>
+                        <p class="ebooks-title">2 就喜欢你看不惯我  又不干...</p>
+                        <p class="clearfix desc">
+                            <img class="fl" src="./images/index08_05.jpg" alt="">从你的全世界路过从你的全世界路过从你的全世界路过从你的全世界路过从你的全世界路过...
+                        </p>
+                    </li>
+                    <li>
+                        <p class="ebooks-title">3 就喜欢你看不惯我  又不干...</p>
+                        <p class="clearfix desc">
+                            <img class="fl" src="./images/index08_05.jpg" alt="">从你的全世界路过从你的全世界路过从你的全世界路过从你的全世界路过从你的全世界路过...
+                        </p>
+                    </li>
+                    <li>
+                        <p class="ebooks-title">4 就喜欢你看不惯我  又不干...</p>
+                        <p class="clearfix desc">
+                            <img class="fl" src="./images/index08_05.jpg" alt="">从你的全世界路过从你的全世界路过从你的全世界路过从你的全世界路过从你的全世界路过...
+                        </p>
+                    </li>
+                    <li>
+                        <p class="ebooks-title">5 就喜欢你看不惯我  又不干...</p>
+                        <p class="clearfix desc">
+                            <img class="fl" src="./images/index08_05.jpg" alt="">从你的全世界路过从你的全世界路过从你的全世界路过从你的全世界路过从你的全世界路过...
+                        </p>
+                    </li>
+                    <li>
+                        <p class="ebooks-title">6 就喜欢你看不惯我  又不干...</p>
+                        <p class="clearfix desc">
+                            <img class="fl" src="./images/index08_05.jpg" alt="">从你的全世界路过从你的全世界路过从你的全世界路过从你的全世界路过从你的全世界路过...
+                        </p>
+                    </li>
+                    <li>
+                        <p class="ebooks-title">7 就喜欢你看不惯我  又不干...</p>
+                        <p class="clearfix desc">
+                            <img class="fl" src="./images/index08_05.jpg" alt="">从你的全世界路过从你的全世界路过从你的全世界路过从你的全世界路过从你的全世界路过...
+                        </p>
+                    </li>                  
+                </ul>
+         </div>
+    </div>
     <!-- 6.服装 -->
     <div class="clothes container"></div>
     <!-- 7.户外运动 -->
@@ -40,5 +694,11 @@
     <div class="promotion container"></div>
     <!-- 11.尾部 -->
     <div class="footer container"></div>
+    <!-- 引入jquery.min.js -->
+     <script src="./js/jquery.js"></script>
+    <!-- 引入轮播插件 -->
+    <script src="./js/slider.js"></script>
+    <!-- 引入自己写的js文件 -->
+    <script src="./js/index.js"></script>
 </body>
 </html>
