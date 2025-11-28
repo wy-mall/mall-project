@@ -75,3 +75,6 @@ table{
 img{
     vertical-align: middle;
 }
+*{
+	user-select: none;
+}
