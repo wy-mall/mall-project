@@ -1,24 +1,24 @@
-/*清楚浮动*/
-.clearfix::after{
-    content: '';
-    display: inline-block;
-    height: 0;
-    clear: both;
-}
-/*左浮动*/
-.fl{
-    float: left;
-}
-/*右浮动*/
-.fr{
-    float: right;
-}
-/*版心*/
 .container{
     width: 1200px;
     margin: 0 auto;
 }
-/* 椤堕儴 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear:both;
+}
+.clearfix{
+    zoom: 1;
+}
+
+/* 顶部 */
 #top {
     background: #101010;
     min-width: 1200px;
@@ -119,7 +119,7 @@
     font-size: 16px;
     color:#323232;
 }
-/* 灏鹃儴 */
+/* 尾部 */
 #footer{
     height: 472px;
 }

@@ -1,14 +1,4 @@
 @charset "utf-8";
-*{
-	margin: 0;
-	padding: 0;
-}
-ul li{
-	list-style: none;
-}
-img{
-	border: 0;
-}
 /* 垂直居中 */
 .small-img{
 	display: flex;
@@ -17,9 +7,9 @@ img{
 }
 .clearfix:before,
 .clearfix:after{
-  display: table;
-  line-height: 0;
-  content: "";
+    display: table;
+    line-height: 0;
+    content: "";
 }
 .magnifier-container{
 	width: 362px;
