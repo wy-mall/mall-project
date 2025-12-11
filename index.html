@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"/>
+    <title>乐购商城(legou.com)-正品低价、品质保障、配送及时、轻松购物！</title>
+    <meta name="description"
+          content="乐购商城legou.com-专业的综合网上购物商城，为您提供正品低价的购物选择、优质便捷的服务体验。商品来自全球数十万品牌商家，囊括家电、手机、电脑、服装、居家、母婴、美妆、个护、食品、生鲜等丰富品类，满足各种购物需求。"/>
+    <meta name="Keywords" content="网上购物,网上商城,家电,手机,电脑,服装,居家,母婴,美妆,个护,食品,生鲜,乐购商城"/>
+    <!-- 引入样式 -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
-    <script src="js/jquery.js"></script>
-    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/slider.css">
     <style>
 
     </style>
@@ -32,15 +33,17 @@
             <img src="img/du_erweima.png" alt="">
         </div>
     </div>
-
+    <!-- 1.顶部 -->
     <div id="top">
+        <!-- 内部容器 -->
         <div class="container clearfix">
             <span class="fl">legochina.cn</span>
             <span class="fr">欢迎光临<a href="#">乐购</a>，请 <a href="login.html">登陆</a>\<a href="register.html">注册</a></span>
         </div>
     </div>
-
+    <!-- 2.导航 -->
     <div class="container">
+        <!-- 搜索框&购物车&订单 -->
         <div id="header" class="clearfix">
             <div id="left" class="fl">
                 <img src="img/logo.jpg" alt="">
@@ -52,6 +55,7 @@
                         <input type="text" placeholder="  创意文具">
                         <button>搜索</button>
                     </form>
+                    <!-- 购物车&订单 -->
                     <a href="member_myOrder.html">我的订单</a>
                     <a href="addShoppingCar.html">购物车<span>3</span></a>
                 </div>
@@ -71,7 +75,7 @@
             </div>
         </div>
     </div>
-
+    <!-- 3.分类导航和banner -->
     <div class="container clearfix">
         <div id="aside" class="fl">
             <ul>
@@ -252,9 +256,8 @@
             </ul>
         </div>
     </div>
-
+    <!-- 4.今日推荐 -->
     <div id="main" class="container">
-
         <div id="rec">
             <div id="recTop">乐购 · 今日推荐</div>
             <div id="pro" class="clearfix">
@@ -333,7 +336,7 @@
             </div>
         </div>
 
-
+        <!-- 5.电子书 -->
         <div id="books" class="clearfix floor">
             <div id="bTop" class="clearfix">
                 <span>图书 电子书</span>
@@ -442,7 +445,7 @@
                 </div>
         </div>    
 
-
+        <!-- 6.服装 -->
         <div id="dress" class="p floor">
             <div id="dressTop" class="pTop clearfix">
                 <span>服装</span>
@@ -517,7 +520,7 @@
             </div>
         </div>
 
-
+        <!-- 7.户外运动 -->
         <div id="sport" class="p floor">
             <div id="sportTop" class="pTop clearfix">
                 <span>户外运动</span>
@@ -593,7 +596,7 @@
             </div>
         </div>
 
-
+        <!-- 8.童装 -->
         <div id="garments" class="p floor">
             <div id="garmentsTop" class="pTop clearfix">
                 <span>童装 童鞋 婴儿装</span>
@@ -669,7 +672,7 @@
             </div>
         </div>
 
-
+        <!-- 9.家具日用 -->
         <div id="gear" class="floor">
             <div id="gearTop" class="pTop">
                 <span>家居日用</span>
@@ -705,7 +708,7 @@
             </div>
         </div>
 
-
+        <!-- 10.推广商品 -->
         <div id="goods" class="floor">
             <div id="goodsTop" class="pTop clearfix">
                 <span>推广商品</span>
@@ -779,7 +782,7 @@
             </div>
         </div>
 
-
+        <!-- 11.尾部 -->
         <div id="returnTop" class="reTop">
             TOP
             <img src="img/returnTop.png" alt="">
@@ -842,6 +845,12 @@
         </div>
 
     </div>
+    <!-- 引入jquery.min.js -->
+    <script src="js/jquery.js"></script>
+    <!-- 引入轮播插件 -->
+    <script src="js/slider.js"></script>
+    <!-- 引入自己写的js文件 -->
+    <script src="js/index.js"></script>
 </body>
 
 </html>
