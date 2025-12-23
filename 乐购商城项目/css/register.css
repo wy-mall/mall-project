@@ -1,0 +1,128 @@
+/* 头部部分修改 */
+
+/* 欢迎登录信息区域  */
+#header{
+    box-shadow: 0px 1px 8px 0px 
+		rgba(146, 146, 146, 0.4);
+}
+#header .welcome_login{
+    height: 72px;
+    line-height: 72px;
+}
+.welcome_login .welcome_left{
+    height: 72px;
+    margin-left: 300px; 
+    font-size: 30px;
+    color: #666;
+}
+.welcome_login .welcome_right{
+    height: 72px;
+    color: #a6a6a6;
+}
+.welcome_login .welcome_right>a{
+    color: #666;
+}
+/* logo区域  */
+#header .top #logoImg{
+    width: 200px;
+    height: 105px;
+}
+
+/* 表单区域 */
+#main{
+    margin-top: 56px;
+}
+#main form{
+    width: 400px;
+    margin: 0 auto;
+    height: 630px;
+}
+form>p{
+    border:1px solid #d9d9d9;
+    height: 40px;
+    margin-bottom: 50px;
+    clear: both;
+}
+form>p>span{
+    float: left;
+    width: 115px;
+    height: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+form input{
+    float: right;
+    width: 255px;
+    height: 40px;
+    outline: none;
+    border: none;
+    
+}
+form input::placeholder{
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* 复选框区域 */
+form input[type = 'checkbox']{
+    float: none;
+    width: 12px;
+    height: 12px;
+    margin-top: 8px;
+    vertical-align: -1px;
+}
+form .check{
+    border: none;
+    margin-bottom: 0px;
+}
+form .check i{
+    font-style: normal;
+}
+/* 验证码区域 */
+form .verifi_code{
+    position: relative;
+}
+form .verifi_code .code{
+    position: absolute;
+    top:2px;
+    right: 0px;
+    width: 124px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background-color: blue;
+    color: #fff;
+    font-style: normal;
+}
+/* 手机验证码 */
+form .phone_verifi{
+    position: relative;
+    margin-bottom: 0px;
+}
+form .phone_verifi #btn{
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    width: 124px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background-color: #e6e6e6;
+    border: none;
+    color: #4d4d4d;
+}
+
+/* 立即注册 */
+form .registerBtn input{
+    float: none;
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #f60;
+}
+
+/* 页脚区域 */
+.footer{
+    border-top: 2px solid #e6e6e6;
+}

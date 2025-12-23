@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商城购物车页面</title>
+    <!-- 引入默认css样式文件 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 引入公共css样式文件 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 引入购物车插件样式文件 -->
+    <link rel="stylesheet" href="./css/cart.css">
+    <!-- 引入当前css样式文件 -->
+    <link rel="stylesheet" href="./css/shopCar.css">
+</head>
+
+<body>
+    <!-- 头部区域开始 -->
+    <div id="header">
+        <!-- top区域开始 -->
+        <div class="top">
+            <div class="wrapper clearfix">
+                <div class="topLeft fl colore6 fs16px">
+                    legochina.cn
+                </div>
+                <div class="topRight fr fs14px">
+                    欢迎光临
+                    <span class="colorf60" onclick="location.href = 'index.html'">乐购</span>，请 <a href="login.html"
+                        class="colorf60">登陆</a>\
+                    <a href="register.html" class="colorf60">注册</a>
+                </div>
+                <!-- logo区域 -->
+                <div class="logo">
+                    <img src="images/05_购物车.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- 搜索区域 -->
+        <div class="wrapper clearfix">
+            <div class="fr check">
+                <!-- 搜索栏区域 -->
+                <div class="search fr">
+                    <input type="text" name="search" placeholder="设计中的设计 原研哉" class="keyword">
+                    <input type="submit" value="">
+                </div>
+                <!-- 配送地址 -->
+                <div class="address fs14px color4d fr">
+                    <span>配送至</span>
+                    <select name="city" id="">
+                        <option value="成都高新区三环内">成都高新区三环内</option>
+                        <option value="武汉高新区三环内">武汉高新区三环内</option>
+                        <option value="南京高新区三环内">南京高新区三环内</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="write_infor color666 fs20px ffSimHei wrapper">
+            <p>全部商品(<span class="amount">0</span>)</p>
+        </div>
+    </div>
+    <!-- 头部区域结束 -->
+
+    <!-- banner区域开始 -->
+    <div class="banner">
+        <div class="header container">
+            <!-- 头部 -->
+            <ul class="list_header fs18px color80">
+                <li class="list_chk">
+                    <!-- <input type="checkbox" id="selall">  -->
+                    <div class="shop_info">
+                        <!-- 单个店铺的全选 -->
+                        <input type="checkbox" class="all_check ">
+
+                    </div>
+                </li>
+                <li class="list_con">全选</li>
+                <li class="list_info">商品参数</li>
+                <li class="list_price">单价</li>
+                <li class="list_amount">数量</li>
+
+                <li class="list_sum">小计</li>
+                <li class="list_op">操作</li>
+            </ul>
+            <div class="part_line"></div>
+            <!-- 第一个店铺 -->
+            <div class="cartbox">
+                <!-- 店铺信息 -->
+
+                <!-- 订单主要区域 -->
+                <div class="order_content">
+                    <ul class="order_lists mt10 clearfix">
+                        <li class="list_chk">
+                            <!-- 单个复选框 -->
+                            <input type="checkbox" class="son_check">
+                        </li>
+                        <li class="list_con">
+                            <div class="list_img fl">
+                                <a href="javascript:;">
+                                    <img src="./images/index08_05.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="list_text fl">
+                                <a href="#">从你全世界路过</a>
+                            </div>
+                        </li>
+                        <li class="list_info">
+                            <p>规格：默认</p>
+                            <p>尺寸：16*16*3(cm)</p>
+                        </li>
+                        <li class="list_price">
+                            <!-- 单价 -->
+                            <p class="price">￥<span>41</span></p>
+                        </li>
+                        <!-- 数量  -->
+                        <li class="list_amount">
+                            <div class="amount_box">
+                                <!-- 减 -->
+                                <a class="reduce fl">-</a>
+                                <input type="number" value="1" class="sum fl">
+                                <!--  加 -->
+                                <a class="plus fl">+</a>
+                            </div>
+                        </li>
+                        <li class="list_sum">
+                            <!-- 小计结果 -->
+                            <p class="sum_price">￥<span>41</span></p>
+                        </li>
+                        <li class="list_op">
+                            <p class="del">
+                                <a class="delbtn">移除商品</a>
+                            </p>
+                        </li>
+                    </ul>
+                    <ul class="order_lists mt10 clearfix">
+                        <li class="list_chk">
+                            <!-- 单个复选框 -->
+                            <input type="checkbox" class="son_check">
+                        </li>
+                        <li class="list_con">
+                            <div class="list_img fl">
+                                <a href="javascript:;">
+                                    <img src="./images/index08_05.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="list_text fl">
+                                <a href="#">从你全世界路过</a>
+                            </div>
+                        </li>
+                        <li class="list_info">
+                            <p>规格：默认</p>
+                            <p>尺寸：16*16*3(cm)</p>
+                        </li>
+                        <li class="list_price">
+                            <p class="price">￥<span>41</span></p>
+                        </li>
+                        <li class="list_amount">
+                            <div class="amount_box">
+                                <!-- 减 -->
+                                <a class="reduce fl">-</a>
+                                <input type="text" value="1" class="sum fl">
+                                <!--  加 -->
+                                <a class="plus fl">+</a>
+                            </div>
+                        </li>
+                        <li class="list_sum">
+                            <!-- 小计结果 -->
+                            <p class="sum_price">￥<span>41</span></p>
+                        </li>
+                        <li class="list_op">
+                            <p class="del">
+                                <a class="delbtn">移除商品</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 底部 -->
+            <div class="btmbox">
+
+                <input type="checkbox" class="all_check ml30">
+                <span>全选</span>
+                <a class="delallsel fs16px color80">删除选中商品</a>
+                <p class="fr fs16px color80">
+                    <span class="">已选择<strong class="cf40 amount"> 0 </strong>件商品</span>
+                    <span>共计 <strong class="cf40 totalprice">0.00</strong> 元</span>
+                    <a href="of.html" class="settle_account fs20px">去结算</a>
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- banner区域结束 -->
+
+    <!-- main区域开始 -->
+    <div id="main">
+        <div class="wrapper">
+            <!-- 猜你喜欢区域 -->
+            <div class="popular-item">
+                <!-- 猜你喜欢区标题区域  -->
+                <h2 class="ffSimHei fs24px">猜你喜欢</h2>
+                <div class="line"></div>
+                <!-- 猜你喜欢区产品列表区 -->
+                <ul class="global_list clearfix">
+                    <li>
+                        <a href="#">
+                            <img src="./images/walk.jpg" alt="">
+                        </a>
+                        <img src="./images/02-产品列表_03.jpg" alt="">
+                        <div class="text ffSimHei">
+                            <p class="fs14px color33">白夜行 东野上吾</p>
+                            <p class="fs14px">
+                                <span>推荐:</span>
+                                <img src="./images/02-产品列表_07.jpg" alt="">
+                            </p>
+                            <p class="fs18px">
+                                <span class="newprice">￥:38</span>
+                                <span class="delprice">￥:58</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/walk.jpg" alt="">
+                        </a>
+                        <img src="./images/02-产品列表_03.jpg" alt="">
+                        <div class="text ffSimHei">
+                            <p class="fs14px color33">白夜行 东野上吾</p>
+                            <p class="fs14px">
+                                <span>推荐:</span>
+                                <img src="./images/02-产品列表_07.jpg" alt="">
+                            </p>
+                            <p class="fs18px">
+
+                                <span class="newprice">￥:38</span>
+                                <span class="delprice">￥:58</span>
+
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/walk.jpg" alt="">
+                        </a>
+                        <img src="./images/02-产品列表_03.jpg" alt="">
+                        <div class="text ffSimHei">
+                            <p class="fs14px color33">白夜行 东野上吾</p>
+                            <p class="fs14px">
+                                <span>推荐:</span>
+                                <img src="./images/02-产品列表_07.jpg" alt="">
+                            </p>
+                            <p class="fs18px">
+                                <span class="newprice">￥:38</span>
+                                <span class="delprice">￥:58</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/walk.jpg" alt="">
+                        </a>
+                        <img src="./images/02-产品列表_03.jpg" alt="">
+                        <div class="text ffSimHei">
+                            <p class="fs14px color33">白夜行 东野上吾</p>
+                            <p class="fs14px">
+                                <span>推荐:</span>
+                                <img src="./images/02-产品列表_07.jpg" alt="">
+                            </p>
+                            <p class="fs18px">
+                                <span class="newprice">￥:38</span>
+                                <span class="delprice">￥:58</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="last">
+                        <a href="#">
+                            <img src="./images/walk.jpg" alt="">
+                        </a>
+                        <img src="./images/02-产品列表_03.jpg" alt="">
+                        <div class="text ffSimHei">
+                            <p class="fs14px color33">白夜行 东野上吾</p>
+                            <p class="fs14px">
+                                <span>推荐:</span>
+                                <img src="./images/02-产品列表_07.jpg" alt="">
+                            </p>
+                            <p class="fs18px">
+                                <span class="newprice">￥:38</span>
+                                <span class="delprice">￥:58</span>
+                            </p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- main区域结束 -->
+
+    <!-- 回到顶部 -->
+    <div id="returnTop"></div>
+
+    <div class="warImg wrapper mt40px"></div>
+    <!-- 页脚区域开始 -->
+    <div class="footer ffSimHei">
+        <!-- 上面的橘红色线条 -->
+        <div class="line"></div>
+        <!-- 流程信息 -->
+        <div class="process_infor">
+            <div class="wrapper clearfix">
+                <p class="bg_img">
+                    <span class="process_channels"></span>
+                    <span class="safe_shopping"></span>
+                    <span class="next_reach"></span>
+                    <span class="return_goods bg"></span>
+                </p>
+            </div>
+        </div>
+        <!-- 页脚内容 -->
+        <div class="wrapper content clearfix">
+            <dl>
+                <dt>
+                    <a href="#">购物指南</a>
+                </dt>
+                <dd>
+                    <a href="#">购物流程</a>
+                </dd>
+                <dd>
+                    <a href="#">发票制度</a>
+                </dd>
+                <dd>
+                    <a href="#">账户管理</a>
+                </dd>
+                <dd>
+                    <a href="#">会员优惠</a>
+                </dd>
+
+            </dl>
+            <dl>
+                <dt>
+                    <a href="#">支付方式</a>
+                </dt>
+                <dd>
+                    <a href="#">货到付款</a>
+                </dd>
+                <dd>
+                    <a href="#">网上支付</a>
+                </dd>
+                <dd>
+                    <a href="#">礼品卡支付</a>
+                </dd>
+                <dd>
+                    <a href="#">银行转帐</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <a href="#">订单服务</a>
+                </dt>
+                <dd>
+                    <a href="#">订单配送查询</a>
+                </dd>
+                <dd>
+                    <a href="#">订单状态说明</a>
+                </dd>
+                <dd>
+                    <a href="#">自助取消订单</a>
+                </dd>
+                <dd>
+                    <a href="#">自助修改订单</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <a href="#">退换货</a>
+                </dt>
+                <dd>
+                    <a href="#">退换货政策</a>
+                </dd>
+                <dd>
+                    <a href="#">自助申请退换货</a>
+                </dd>
+                <dd>
+                    <a href="#">退换货进度查询</a>
+                </dd>
+                <dd>
+                    <a href="#">退款方式和时间</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <a href="#">商家服务</a>
+                </dt>
+                <dd>
+                    <a href="#">商家中心</a>
+                </dd>
+                <dd>
+                    <a href="#">运营服务</a>
+                </dd>
+                <dd>
+                    <a href="#">加入尾品汇</a>
+                </dd>
+            </dl>
+            <div class="logo fr">
+            </div>
+        </div>
+        <!-- 页尾导航栏 -->
+        <div class="fin_nav wrapper">
+            <a href="">公司简介</a>
+            <span>|</span>
+            <a href="">Investor Relations</a>
+            <span>|</span>
+            <a href="">网站联盟</a>
+            <span>|</span>
+            <a href="">乐购招商</a>
+            <span>|</span>
+            <a href="">机构销售</a>
+            <span>|</span>
+            <a href="">手机乐购</a>
+            <span>|</span>
+            <a href="">官方Blog</a>
+            <span>|</span>
+            <a href="">热词搜索</a>
+        </div>
+        <!-- 版权区域 -->
+        <div class="copyright wrapper fs14px color33">
+            Copyright (C) 乐购网 2004-2016, All Rights Reserved
+        </div>
+    </div>
+    <!-- 页脚区域结束 -->
+
+    <!-- 引入jQuery -->
+    <script src="./lib/jquery.js"></script>
+
+    <!-- 引入轮播图插件 -->
+    <script src="./lib/jquery.slidebox.js"></script>
+
+    <!-- 引入放大镜插件 -->
+    <script src="./js/magnifier.js"></script>
+
+    <!-- 引入当前文件 -->
+    <script src="./js/shopCar.js"></script>
+
+</body>
+
+</html>

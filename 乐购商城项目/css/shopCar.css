@@ -1,0 +1,78 @@
+/* 头部区域开始 */
+/* logo区域 */
+#header .top .logo{
+    width: 285px;
+    height: 105px;
+}
+/* 搜索区域 */
+#header .check{
+    width: 450px;
+}
+#header .check .search input::placeholder{
+    color: #bfbfbf;
+    font-size: 16px;
+    font-family: '黑体';
+}
+#header .check .address{
+    margin-top: 12px;
+    margin-right: 20px;
+}
+/* 填写信息区域 */
+#header .write_infor{
+    height: 46px;
+    margin-top: 34px;
+}
+#header .write_infor p{
+	color: #f60;
+	font-size: 30px;
+}
+/* main区域开始 */
+
+/* 人气单品区域 */
+.popular-item h2{
+    width: 124px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    background-color: #f60;
+}
+
+.global_list>li{
+    float: left;
+    width: 220px;
+    height: 260px;
+    background-color: #f2f2f2;
+    margin-right: 25px;
+    margin-bottom: 6px;
+}
+.global_list>li.last{
+    margin-right: 0px;
+}
+
+.global_list>li>a{
+    display: block;
+    padding:7px 30px 0px 30px;
+}
+
+.global_list>li .text{
+    margin-left: 8px;
+    line-height: 24px;
+}
+.global_list>li .text p:nth-child(2){
+    color: #f4290d;
+}
+.global_list>li .text p:nth-child(3) .newprice{
+    margin-right: 5px;
+    color: #f4290d;
+}
+.global_list>li .text p:nth-child(3) .delprice{
+    text-decoration: line-through;
+    color: #c0c0c0;
+}
+.btmbox>span{
+	font-size: 16px;
+}
+/* main区域结束 */
+

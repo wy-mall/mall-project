@@ -1,0 +1,674 @@
+/* 公共组件 */
+
+/* 版心组件 */
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 浮动组件 */
+/* 左浮动 */
+.fl {
+    float: left;
+}
+
+/* 右浮动 */
+.fr {
+    float: right;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* 测试组件 */
+/* .tb{
+    border: 1px solid red;
+} */
+
+/* 字体组件 */
+.fs12px {
+    font-size: 12px;
+}
+
+.fs14px {
+    font-size: 14px;
+}
+
+.fs16px {
+    font-size: 16px;
+}
+
+.fs18px {
+    font-size: 18px;
+}
+
+.fs20px {
+    font-size: 20px;
+}
+
+.fs22px {
+    font-size: 22px;
+}
+
+.fs24px {
+    font-size: 24px;
+}
+
+.fs26px {
+    font-size: 26px;
+}
+
+.fs28px {
+    font-size: 28px;
+}
+
+/* 字体样式 */
+.ffSimHei {
+    font-family: '黑体';
+}
+
+/* 字体加粗组件 */
+.fw {
+    font-weight: bold;
+}
+
+/* 文字颜色组件 */
+.colorf60 {
+    color: #f60;
+}
+
+.color26 {
+    color: #262626;
+}
+
+.color1a {
+    color: #1a1a1a;
+}
+
+.color32 {
+    color: #323232;
+}
+
+.color33 {
+    color: #333333;
+}
+
+.colorf42 {
+    color: #f4290d;
+}
+
+.colore6 {
+    color: #e6e6e6;
+}
+
+.color80 {
+    color: #808080;
+}
+
+.color81 {
+    color: #818181;
+}
+
+.color666 {
+    color: #666666;
+}
+
+.color999 {
+    color: #999999;
+}
+
+.color4d {
+    color: #4d4d4d;
+}
+
+.color34 {
+    color: #343434;
+}
+
+.colorf80e {
+    color: #f80e0e;
+}
+
+.color6c {
+    color: #6c6c6c;
+}
+
+.colora6 {
+    color: #a6a6a6;
+}
+
+.colorf30e {
+    color: #f30e0e;
+}
+
+.color1080e9 {
+    color: #1080e9;
+}
+
+/* 6像素横线 */
+.line {
+    height: 6px;
+    background-color: #f60;
+}
+
+/* 首页服装区域公共样式 */
+
+
+/* 服装上面标题部分*/
+.common_title {
+    line-height: 40px;
+}
+
+.common_title h2 {
+    font-weight: normal;
+    color: #f60;
+}
+
+.common_title ul>li {
+    float: left;
+    width: 98px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* 将三个区域都隐藏 */
+.common_body {
+    display: none;
+}
+
+/* 将当前区域 显示 */
+.on {
+    display: block;
+}
+
+.common_title ul>.active {
+    color: #fff;
+    background-color: #f60;
+}
+
+/* 外边距组件 */
+.mt40px {
+    margin-top: 40px;
+}
+
+.mt10px {
+    margin-top: 10px;
+}
+
+/* 服装内容左边区域 */
+
+.common_body .common_left {
+    width: 240px;
+    height: 350px;
+}
+
+.common_body .common_left>img {
+    width: 100%;
+    height: 100%;
+}
+
+.common_body .common_left ul.classfiy {
+    height: 144px;
+    padding-top: 6px;
+    background-color: #f9f9f9;
+}
+
+.common_body .common_left ul.classfiy>li {
+    float: left;
+    width: 80px;
+    line-height: 35px;
+}
+
+.common_left ul.classfiy>li>a {
+    color: #333;
+}
+
+/* 服装内容中间区域 */
+.common_body .common_center {
+    width: 436px;
+}
+
+/* .common_body .common_center img{
+    width: 436px;
+    border: 1px solid #ccc;
+} */
+
+.common_body .common_center .top_img {
+    width: 436px;
+    height: 338px;
+    border: 1px solid #ccc;
+}
+
+/* .common_body .common_center .bottom_img{
+    height: 158px;
+} */
+.common_body .common_center .bottom_img>img {
+    width: 436px;
+    height: 160px;
+    border: 1px solid #ccc;
+}
+
+/* 服装内容右边区域 */
+.common_body .common_right {
+    width: 522px;
+    height: 338px;
+}
+
+.common_body .common_right .ul-top li {
+    float: left;
+    width: 172px;
+    border: 1px solid #ccc;
+}
+
+.common_body .common_right .ul-bottom li {
+    float: left;
+    width: 172px;
+    border: 1px solid #ccc;
+}
+
+.common_right .ul-top li>a {
+    display: block;
+    width: 172px;
+    height: 338px;
+}
+
+.common_right .ul-top li>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+.common_right .ul-bottom li>a {
+    display: block;
+    width: 172px;
+    height: 158px;
+}
+
+.common_right .ul-bottom li>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 链接区域 */
+.link {
+    margin-top: 10px;
+}
+
+.link a {
+    float: left;
+    width: 110px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.link a>img {
+    width: 100%;
+    height: 100%;
+
+}
+
+/* 首页的模板样式 */
+/* 头部区域开始 */
+/* top区域 */
+#header .top {
+    height: 30px;
+    background-color: hsl(0, 0%, 6%);
+    line-height: 30px;
+}
+
+#header .top>div {
+    position: relative;
+}
+
+#header .top .topLeft {
+    margin-left: 290px;
+}
+
+#header .top .topRight {
+    color: #bfbfbf;
+    margin-right: 9px;
+}
+
+/* logo部分 */
+#header .top .logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 114px;
+}
+
+.top .logo>img {
+    width: 220px;
+    height: 100%;
+}
+
+/* 搜索区域 */
+#header>div {
+    height: 60px;
+}
+
+#header .check {
+    width: 685px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+#header .check .search {
+    position: relative;
+    width: 440px;
+    line-height: 36px;
+}
+
+#header .top .wrapper .topRight {
+    color: white;
+}
+
+#header .top .wrapper .topRight>a:first-of-type {
+    color: white;
+}
+
+/* 中间搜索栏区域 */
+.check .search input {
+    outline: none;
+    border: none;
+}
+
+.check .search input.keyword::-webkit-input-placeholder {
+    text-indent: 1em;
+}
+
+.check .search input.keyword {
+    width: 440px;
+    height: 32px;
+    border: 2px solid #f60;
+}
+
+.check .search input:nth-child(2) {
+    position: absolute;
+    top: 0px;
+    right: -2px;
+    width: 50px;
+    height: 36px;
+    background-image: url('../images/bgicon.png');
+    background-repeat: no-repeat;
+
+}
+
+/* 右边购买信息区域  */
+.check .shop_infor {
+    line-height: 36px;
+    text-align: center;
+}
+
+.check .shop_infor>a>div {
+    width: 100px;
+    height: 36px;
+    background-color: #ebebeb;
+    border: solid 1px #cccccc;
+    cursor: pointer;
+}
+
+.check .shop_infor>a:nth-child(1)>div {
+    background-image: url('../images/bgicon.png');
+    background-repeat: no-repeat;
+    background-position: 0 -42px;
+    text-indent: 30px;
+    background-color: #f60;
+    color: #fff;
+}
+
+/* 导航栏区域 */
+#header .nav {
+    height: 24px;
+    line-height: 24px;
+}
+
+#header .nav>ul {
+    width: 964px;
+}
+
+.nav>ul>li {
+    float: left;
+    margin-right: 30px;
+}
+
+.nav>ul>li>a {
+    display: block;
+    height: 24px;
+    color: #323232;
+    font-weight: bold;
+}
+
+.nav>ul>li>a:hover {
+    background-color: rgba(255, 0, 0, .7);
+    color: #fff;
+}
+
+/* 导航栏左边区域 */
+#banner .ban_left {
+    position: relative;
+    width: 200px;
+    background-color: #f3f3f3;
+}
+
+.ban_left>li {
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+
+.ban_left>li>p {
+    position: relative;
+    width: 183px;
+    height: 30px;
+    padding-left: 18px;
+    z-index: 3;
+}
+
+/* 导航栏div隐藏区域 */
+.ban_left>li .hidden {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    width: 964px;
+    height: 446px;
+    padding-left: 36px;
+    background-color: #fff;
+    border: 1px solid #f60;
+    z-index: 2;
+}
+
+.ban_left>li .hidden .title {
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.ban_left>li .hidden .title>a {
+    color: #1a1a1a;
+    font-size: 12px;
+    margin-right: 25px;
+}
+
+.hidden ul li {
+    width: 472px;
+    margin-bottom: 5px;
+}
+
+.hidden ul li h3 {
+    line-height: 30px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.hidden ul li p {
+    line-height: 30px;
+}
+
+.hidden ul li p a {
+    margin-right: 2px;
+    color: #262626;
+    font-size: 12px;
+}
+
+/* 添加active类后出现的效果 */
+.ban_left>li.active {
+    border: 1px solid #f60;
+    border-right: 0px;
+}
+
+.ban_left>li.active>p {
+    background-color: #fff;
+}
+
+.ban_left>li.active>p>a {
+    color: #f60;
+    font-size: 16px;
+}
+
+.ban_left>.active .hidden {
+    display: block;
+}
+
+
+/* 导航栏区域结束 */
+/* 头部区域结束 */
+
+/* 回到顶部样式组件 */
+/* 回到顶部 */
+#returnTop {
+    top: 80%;
+    left: 90%;
+    /* display: none; */
+    position: fixed;
+    width: 30px;
+    height: 50px;
+    background: url('../images/gototop_05.jpg') no-repeat;
+}
+
+/* 魔兽区域组件 */
+.warImg {
+    height: 90px;
+    background: url('../images/war.jpg') no-repeat center;
+}
+
+/* 页尾区域样式组件 */
+
+/* 页尾区域 */
+.footer .process_infor {
+    background-color: #f2f2f2;
+    margin-bottom: 31px;
+}
+
+/* 页尾区域的背景图片 */
+.footer .process_infor>div {
+    height: 100px;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+.process_infor .bg_img {
+    width: 882px;
+    margin: 0px auto;
+}
+
+.process_infor span {
+    float: left;
+    width: 138px;
+    height: 52px;
+    margin-right: 90px;
+}
+
+.process_infor span.bg {
+    margin-right: 0px;
+}
+
+/* 第一张图片 */
+.process_infor span {
+    background-image: url('../images/footer_bg.png');
+}
+
+/* 第二张图片 */
+.process_infor span:nth-child(2) {
+    background-position: 0 -52px;
+}
+
+/* 第三张图片 */
+.process_infor span:nth-child(3) {
+    background-position: 0 -104px;
+}
+
+/* 第四张图片 */
+.process_infor span:nth-child(4) {
+    background-position: 0 -156px;
+}
+
+/* 页脚内容 */
+
+.footer .content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.footer .content dl {
+    float: left;
+    width: 120px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.footer .content dt>a {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4d4d4d;
+}
+
+.footer .content dd>a {
+    display: block;
+    height: 28px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4d4d4d;
+}
+
+/* 页尾logo */
+.footer .content .logo {
+    width: 113px;
+    height: 78px;
+    margin-top: 33px;
+    background-image: url('../images/logo_00.png');
+    background-position: center center;
+}
+
+/* 页尾导航栏 */
+.footer .fin_nav {
+    width: 882px;
+    margin: 0 auto;
+    margin-top: 46px;
+    margin-bottom: 20px;
+}
+
+.footer .fin_nav a {
+    font-size: 14px;
+    color: #333;
+}
+
+.footer .fin_nav span {
+    margin: 0 15px;
+}
+
+/* 版权区域 */
+.footer .copyright {
+    margin-bottom: 106px;
+    text-align: center;
+
+}

@@ -1,0 +1,577 @@
+/* 小广告 */
+.adlet {
+    position: fixed;
+    top: 100px;
+    right: 0;
+}
+
+.adlet .qr {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+/* main区域开始 */
+#main .cen_main {
+    margin-top: 15px;
+}
+
+.cen_main .today_recom h2 {
+    height: 30px;
+    margin-left: 10px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.cen_main .today_recom ul {
+    width: 1188px;
+    margin: 0 auto;
+    border: 1px solid #f60;
+}
+
+.cen_main .today_recom ul>li {
+    float: left;
+    width: 198px;
+    box-sizing: border-box;
+    border: 1px solid #f60;
+}
+
+.today_recom ul>li>a {
+    display: block;
+    width: 100%;
+}
+
+.today_recom ul>li>a>.pic {
+    padding: 0px 24px;
+}
+
+.today_recom ul>li>a p {
+    text-indent: 5px;
+    font-size: 14px;
+}
+
+.today_recom ul>li>a p:nth-child(3) {
+    color: #333333;
+}
+
+.today_recom ul>li>a p:nth-child(4) {
+    color: #f4290d;
+}
+
+.today_recom ul>li>a p:nth-child(5) {
+    color: #f4290d;
+}
+
+.today_recom ul>li>a .money {
+    font-size: 24px;
+    color: #f4290d;
+    line-height: 36px;
+}
+
+/* 电子书区域 */
+.e-books {
+    position: relative;
+    margin-top: 42px;
+}
+
+/* 电子书左边区域 上面标题部分*/
+.e-books .e_left {
+    width: 916px;
+}
+
+.e-books .e_left .e-title {
+    line-height: 40px;
+}
+
+.e_left .e-title h2 {
+    font-weight: normal;
+    color: #ff6700;
+}
+
+.e_left .e-title ul>li {
+    float: left;
+    width: 98px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.e_left .e-title ul>.change {
+    color: #fff;
+    background-color: #f60;
+}
+
+/* 下面产品区 */
+.con_production .pro_one {
+    display: none;
+}
+
+.con_production .able {
+    display: block;
+}
+
+.con_production .pro_one .pro_left {
+    width: 240px;
+    border: 1px solid #ccc;
+}
+
+.con_production .pro_one .pro_left>img {
+    width: 100%;
+    height: 290px;
+}
+
+.con_production .pro_one .pro_left ul.classfiy {
+    height: 150px;
+    padding-top: 6px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+.pro_one .pro_left ul.classfiy li {
+    float: left;
+    width: 80px;
+    line-height: 35px;
+}
+
+.pro_left ul.classfiy li>a {
+    color: #333;
+}
+
+/* 产品区右边商品 */
+.pro_one .pro_right {
+    width: 674px;
+
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.pro_one .pro_right li {
+    float: left;
+}
+
+.pro_one .pro_right>li>a {
+    display: block;
+    width: 168px;
+    height: 220px;
+    padding-left: 3px;
+    padding-top: 14px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.pro_one .pro_right .small_lunbo {
+    width: 335px;
+    height: 220px;
+    border: none;
+}
+
+.pro_one .pro_right li h3 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.pro_one .pro_right li p {
+    color: #f60;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+
+.pro_right li a img {
+    width: 100%;
+    height: 116px;
+}
+
+.pro_right li a div {
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.pro_right li a div>span:nth-child(1) {
+    color: #f91616;
+}
+
+.pro_right li a div>span:nth-child(2) {
+    color: #b3b3b3;
+    margin-left: 8px;
+}
+
+/* 电子书右边区域 */
+
+.e-books .e_right {
+    width: 280px;
+    margin-top: 40px;
+
+    border: 2px solid #e5e5e5;
+}
+
+/* 电子书右边标题  */
+.e_right h2 {
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.e_right ol li {
+    position: relative;
+    padding-left: 20px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+/* 左边的数字 */
+.e_right ol li span {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    width: 20px;
+    font-size: 16px;
+    color: #ff2315;
+    text-align: center;
+}
+
+/* 文字内容区域  */
+ol li>p {
+    width: 260px;
+    height: 39px;
+    line-height: 39px;
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+ol li p.hidden {
+    display: none;
+}
+
+/* 图片和图片简介区域  */
+ol li.hot_book .recomm_word {
+    display: none;
+}
+
+ol li.hot_book .recomm_word.present {
+    display: block;
+}
+
+ol li.hot_book .recomm_word img {
+    width: 120px;
+    height: 150px;
+}
+
+ol li.hot_book .recomm_word p {
+    width: 126px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #404040;
+}
+
+/* 家居日用区域 */
+/* 标题区域 */
+.home_user .home_title {
+    height: 40px;
+    margin-top: 42px;
+    line-height: 40px;
+    font-weight: normal;
+    color: #f60;
+}
+
+/* 家居日用内容区域 */
+/* 左边区域 */
+.home_content .left {
+    width: 487px;
+    height: 500px;
+    border: 1px solid #ccc;
+}
+
+/* 右边区域 */
+.home_content .right {
+    width: 709px;
+}
+
+.home_content .right li {
+    float: left;
+}
+
+.home_content .right li.img-top {
+    height: 340px;
+}
+
+.home_content .right li.img-bottom {
+    height: 160px;
+}
+
+.home_content .right a {
+    display: block;
+    width: 177px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.home_content .right .img-top a {
+    height: 340px;
+}
+
+.home_content .right .img-bottom a {
+    height: 162px;
+}
+
+.home_content .right img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 推广商品标题 */
+.produ_promotion .promo_title ul li {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #e6e6e6;
+    float: left;
+    margin-left: 10px;
+}
+
+.produ_promotion .promo_title ul .active {
+    background-color: #ff6700;
+}
+
+.produ_promotion .promo_title {
+    height: 40px;
+    width: 1200px;
+    border-bottom: solid 7px #ff6700;
+    margin-top: 42px;
+    line-height: 40px;
+}
+
+/* 推广商品列表区域 */
+.produ_list_father {
+    width: 1225px;
+    overflow: hidden;
+}
+
+.produ_list_both {
+    width: 2450px;
+    transition: left 5s ease;
+}
+
+
+
+
+
+.move_left {
+    transform: translateX(-1225px);
+}
+
+
+
+
+.produ_list_both>div {
+    float: left;
+}
+
+.produ_list {
+    width: 1225px;
+    margin-bottom: 50px;
+}
+
+.produ_list li {
+    float: left;
+    width: 220px;
+    height: 300px;
+    padding: 25px 35px 0px 35px;
+    margin-right: 25px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    font-family: '黑体';
+}
+
+.produ_list li:hover {
+    background-color: #f2f2f2;
+}
+
+.produ_list .last {
+    /* margin-right: 0px; */
+}
+
+.produ_list li>a {
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+.produ_list li>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+.produ_list li p:nth-child(2) {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.produ_list li p:nth-child(3) {
+    font-size: 24px;
+    margin: 10px 0 8px 8px;
+    color: #f4290d;
+}
+
+/* 楼层滚动区域 */
+.scroll {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -660px;
+    margin-top: -100px;
+    width: 40px;
+    height: 200px;
+    background-color: #eee;
+}
+
+.scroll>li {
+    overflow: hidden;
+    width: 0px;
+    height: 40px;
+    padding-left: 40px;
+    line-height: 40px;
+    color: #fff;
+    background: url('../images/sprite.png') no-repeat;
+    text-align: center;
+}
+
+
+.scroll>li.clothes {
+    background-position: 0px -80px;
+}
+
+.scroll>li.sport {
+    background-position: 0px -160px;
+}
+
+.scroll>li.children {
+    background-position: 0px -200px;
+}
+
+.scroll>li.home {
+    background-position: 0px -320px;
+}
+
+/* 头部滚动效果 */
+.topScroll {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: #ff6700;
+    box-shadow: 0px 1px 8px 0px rgba(146, 146, 146, 0.4);
+    z-index: 10;
+    opacity: 90%;
+}
+
+.topScroll .logo {
+    width: 105px;
+    height: 60px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+    line-height: 60px;
+}
+
+.topScroll .search {
+    position: relative;
+    width: 440px;
+    margin-top: 22px;
+    margin-left: 275px;
+    line-height: 36px;
+}
+
+/* 中间搜索栏区域 */
+.topScroll .search input {
+    outline: none;
+    border: none;
+}
+
+.topScroll .search input.keyword::-webkit-input-placeholder {
+    text-indent: 1em;
+}
+
+.topScroll .search input.keyword {
+    width: 440px;
+    height: 32px;
+    border: 2px solid #f60;
+}
+
+.topScroll .search input:nth-child(2) {
+    position: absolute;
+    top: 0px;
+    right: -2px;
+    width: 50px;
+    height: 36px;
+    background-image: url('../images/bgicon.png');
+    background-repeat: no-repeat;
+
+}
+
+/* 右边购买信息区域  */
+.topScroll .shop_infor {
+    line-height: 36px;
+    text-align: center;
+}
+
+.topScroll .shop_infor>div {
+    width: 100px;
+    height: 36px;
+    margin-top: 22px;
+    background-color: #ebebeb;
+    border: solid 1px #cccccc;
+    cursor: pointer;
+}
+
+.topScroll .shop_infor>div:nth-child(1) {
+    background-image: url('../images/bgicon.png');
+    background-repeat: no-repeat;
+    background-position: 0 -42px;
+    text-indent: 30px;
+    background-color: #f60;
+    color: #fff;
+}
+
+.top_img img {
+    width: 437px;
+    height: 338px;
+}
+
+
+/* 最后的滚动效果 */
+/* 只添加滑动功能需要的CSS，不改变原有布局 */
+.produ_list_father {
+    overflow: hidden;
+    position: relative;
+}
+
+.produ_list_both {
+    width: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    /* 消除inline-block间隙 */
+    transition: transform 0.3s ease;
+}
+
+.produ_list_both>div {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    font-size: 14px;
+    /* 恢复字体大小 */
+}
+
+
+.promo_title ul li {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.promo_title ul li.active {
+    background-color: #ff6600;
+}

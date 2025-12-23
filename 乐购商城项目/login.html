@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商城登录页</title>
+    <!-- 引入默认css样式123文件 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 引入公共css样式文件 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 引入插件样式 -->
+    <link rel="stylesheet" href="./css/slider.css">
+    <!-- 引入当前css样式文件 -->
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <!-- 头部区域开始 -->
+    <div id="header">
+        <!-- top区域开始 -->
+        <div class="top">
+            <div class="wrapper clearfix">
+                <div class="topLeft fl colore6 fs16px">
+                    legochina.cn
+                </div>
+                <div class="topRight fr fs14px">
+                    欢迎光临
+                    <span class="colorf60 indexrerun">乐购</span>，请 登陆\
+                    <a href="register.html" class="colorf60">注册</a>
+                </div>
+                <!-- logo区域 -->
+                <div class="logo" id="logoImg">
+                    <img src="./images/05-登录.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- 欢迎登录信息区域  -->
+        <div class="welcome_login ffSimHei">
+            <div class="wrapper clearfix">
+                <h2 class="welcome_left fl">欢迎登陆</h2>
+            </div>
+        </div>
+    </div>
+    <!-- 头部区域结束 -->
+
+    <!-- 登陆区域开始 -->
+    <div id="main" class="ffSimHei tb color666">
+        <div class="loginInfor">
+            <ul class="fs22px clearfix ffSimHei">
+                <li class="fl hove">
+                    扫码登录
+                </li>
+                <li class="fl">
+                    账号登录
+                </li>
+            </ul>
+            <!-- 扫码登录界面 -->
+            <div class="logIn">
+                <div class="pic appear log">
+                    <img src="./images/05-登录_03.png" alt="">
+                    <img src="./images/05-登录01_03.png" alt="">
+                    <p class="fs14px">打开手机版 乐购APP 扫一扫</p>
+                </div>
+                <!-- 账号登录界面 -->
+                <form action="#" method="get" id="myform" class="countForm log">
+                    <div class="content">
+                        <!-- 用户名 -->
+                        <p class="clearfix">
+                            <span class="person fl">
+                                <img src="images/tou.png" />
+                            </span>
+                            <input type="text" name="username" id="uname" class="fr">
+                        </p>
+                        <!-- 密码 -->
+                        <p class="clearfix">
+                            <span class="password fl">
+                                <img src="images/suo.png" /> </span>
+                            <input type="password" name="pwd" id="pwd" class="fr">
+                        </p>
+                        <!-- 复选框区域 -->
+                        <p class="checkbox ffSimHei fs14px color666">
+                            <input type="checkbox" name="auto_login" id="auto_login">
+                            自动登录
+                            <a href="#">忘记密码</a>
+                        </p>
+                        <!-- 登录区域 -->
+                        <p class="last">
+                            <input type="button" onclick="location.href = 'index.html'" value="登&emsp;录" class="fs22px"
+                                style="background-color: #f86400; width: 100%; color: white;">
+                        </p>
+                    </div>
+                    <div class="tip fs18px colorf60" onclick="location.href = 'register.html'">
+                        <span class="fs12px">></span>立即注册
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- 登陆区域结束 -->
+
+
+
+    <!-- 页脚区域开始 -->
+    <div class="footer ffSimHei wrapper">
+        <!-- 页尾导航栏 -->
+        <div class="fin_nav wrapper">
+            <a href="">公司简介</a>
+            <span>|</span>
+            <a href="">Investor Relations</a>
+            <span>|</span>
+            <a href="">网站联盟</a>
+            <span>|</span>
+            <a href="">乐购招商</a>
+            <span>|</span>
+            <a href="">机构销售</a>
+            <span>|</span>
+            <a href="">手机乐购</a>
+            <span>|</span>
+            <a href="">官方Blog</a>
+            <span>|</span>
+            <a href="">热词搜索</a>
+        </div>
+        <!-- 版权区域 -->
+        <div class="copyright wrapper fs14px color33">
+            Copyright (C) 乐购网 2004-2016, All Rights Reserved
+        </div>
+    </div>
+    <!-- 页脚区域结束 -->
+
+    <!-- 引入jQuery -->
+    <script src="./lib/jquery.js"></script>
+
+    <!-- 引入轮播图插件 -->
+    <script src="./lib/jquery.slidebox.js"></script>
+
+    <!-- 引入当前文件 -->
+    <script src="./js/login.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,362 @@
+/* 头部区域开始 */
+/* logo区域 */
+#header .top .logo{
+    width: 200px;
+    height: 105px;
+}
+#header .blank{
+    height: 84px;
+}
+/* 填写信息区域 */
+#header .write_infor{
+    height: 25px;
+    padding-top: 21px;
+}
+#header .write_infor .order{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* main区域结束 */
+#main .receive-infor{
+    height: 60px;
+    padding: 0px 10px;
+    line-height: 60px;
+    background-color: #f2f2f2;
+}
+
+#main .receive-infor .right_infor{
+    color:#1080e9;
+    cursor: pointer;
+}
+
+#main .good_address{
+    padding: 20px 86px 20px 45px;
+}
+#main .good_address span{
+    display: inline-block;
+    position: relative;
+}
+i{  
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 16px;
+    height: 14px;
+    background: url('../images/nike.jpg') no-repeat;
+}
+i.present{
+    display: block;
+}
+#main .good_address .on{
+    border: 2px solid #f60;
+}
+
+.address span:nth-child(1){
+    width: 115px;
+    height: 34px;
+    padding-left: 10px;
+    line-height: 34px;
+    border: 2px solid #e6e6e6;
+    cursor: pointer;
+}
+.address span:nth-child(2){
+    margin: 0px 80px 0px 36px;
+}
+.address span:nth-child(4){
+    margin: 0 76px;
+}
+.address span:nth-child(5){
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #999;
+    cursor: pointer;
+    user-select: none;
+}
+.bottom_address span:nth-child(5){
+    width: 16px;
+    height: 16px;
+    color: #f60;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.more_address{
+    margin: 25px 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+.pay_way{
+    height: 60px;
+    padding-left: 10px;
+    line-height: 60px;
+    background-color: #f2f2f2;
+}
+.pay_pattern{  
+    padding: 20px 86px 50px 45px;
+}
+.pay_pattern span{
+    position: relative;
+    display: inline-block;
+    width: 125px;
+    height: 34px;
+    margin-right: 12px;
+    line-height: 34px;
+    text-align: center;
+    border: 2px solid #e5e5e5;
+    cursor: pointer;
+    user-select: none;
+}
+.pay_pattern span.active{
+    border: 2px solid #f60;
+}
+.pay_pattern span:nth-child(5){
+    border: none;
+}
+
+.good_list{
+    height: 60px;
+    padding-left: 10px;
+    line-height: 60px;
+    background-color: #f2f2f2;
+}
+
+.good_list span{
+    display: inline-block;
+    width: 125px;
+    height: 18px;
+    margin-right: 12px;
+}
+.good_list span:nth-child(2){
+    width: 190px;
+    text-align: right;
+    cursor: pointer;
+    user-select: none;
+}
+.good_list span:nth-child(3){
+    cursor: pointer;
+    user-select: none;
+}
+.distribution_node{
+    height: 250px;
+    padding: 10px 0px 10px 14px;
+    border-bottom: 2px solid #e6e6e6;
+}
+.distribution_node .left_distribution{
+    width: 450px;
+    height: 230px;
+    padding-top: 20px;
+}
+.distribution_node .left_distribution .delivery_way{
+    margin-bottom: 10px; 
+}
+.distribution_node .left_distribution .sf{
+    margin-left: 30px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.distribution_node .left_distribution .sf span{
+    position: relative;
+    display: inline-block;
+    width: 125px;
+    height: 34px;
+    border: 2px solid #f60;
+    text-align: center;
+    line-height: 34px;
+}
+.distribution_node .left_distribution .sf span i{
+    display: block;
+}
+.distribution_node .right_distribution{
+    width: 736px;
+    height: 250px;
+}
+.delivery_infor span{
+    display: inline-block;
+    margin: 5px 0px;
+}
+.delivery_infor span:nth-child(2){
+    width: 280px;
+}
+.delivery_infor span:nth-child(3){
+    width: 68px;
+    cursor: pointer;
+}
+.right_distribution{
+    background-color: #f2f2f2;
+}
+.right_distribution .book_discrition{
+    padding: 10px 0 0 24px;
+}
+
+.right_distribution .book_discrition li{
+    float: left;
+}
+.right_distribution .book_discrition li .pic{
+    width: 74px;
+    height: 94px;
+    padding: 5px 15px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+.right_distribution .book_discrition li .pic>img{
+    width: 100%;
+    height: 100%;
+}
+.right_distribution .book_discrition li:nth-child(2){
+    padding-top: 45px;
+    margin: 0px 95px 0px 52px;
+}
+.right_distribution .book_discrition li:nth-child(3){
+    padding-top: 45px;
+    color: #f00d0d;
+}
+.right_distribution .book_discrition li:nth-child(4){
+    padding-top: 45px;
+    margin: 0px 104px 0px 60px;
+    font-weight: bold;
+}
+.right_distribution .book_discrition li:nth-child(5){
+    padding-top: 45px;
+    font-weight: bold;
+}
+
+.invoice_infor{
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+.invoice_infor p{
+    line-height: 32px;
+}
+.invoice_infor p>span{
+    margin-right: 20px;
+}
+.invoice_infor p>span:nth-child(4){
+    cursor: pointer;
+}
+
+.good_allist{
+    height: 60px;
+    padding-left: 20px;
+    line-height: 60px;
+    border: 1px solid #ccc;
+}
+.good_allist li{
+    float: left;
+}
+.good_allist li:nth-child(2){
+    margin: 0px 85px;
+}
+.good_allist li:nth-child(4){
+    float: right;
+    margin-right: 60px;
+}
+
+.arrive{
+    padding: 20px 0px 20px 20px;
+}
+.submit_order{
+    width: 140px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fefefe;
+    background-color: #f60;
+    cursor: pointer;
+}
+
+/* 登陆模态框区域 */
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.log_modal{
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+}
+
+.log_modal .pay_result{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -138px;
+    margin-left: -235px;
+    width: 470px;
+    height: 276px;
+    background-color: #fff;
+}
+.log_modal .pay_result h2{
+    height: 40px;
+    line-height: 40px;
+    text-indent: 12px;
+    font-weight: normal;
+    background-color: #e6e6e6;
+}
+.log_modal .pay_result .pay_final{
+    height: 74px;
+    margin: 24px 0px 24px 124px;
+}
+.pay_result .pay_final>img{
+    width: 74px;
+    height: 74px;
+    vertical-align: -28px;
+}
+.pay_result .btn{
+    width: 290px;
+    margin: 0 auto;
+    
+}
+.pay_result .btn p{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.pay_result .btn p:nth-child(1){
+    background-color: #e6e6e6;
+}
+.pay_result .btn p:nth-child(2){
+    background-color: #ff6700;
+    color: #fff;
+}
+/* 小盒子的删除按钮 */
+.pay_result .del{
+    position: absolute;
+    top: 0px;
+    right:0px;
+    width: 20px;
+    height: 22px;
+    margin: 9px 10px ;
+    background: url('../images/10-付款失败xx.png') no-repeat;
+    
+}
+.pay_result .content p:nth-child(2){
+    text-align: center;
+}
+.pay_result .content p:nth-child(3){
+    margin-top: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.pay_result .content p:nth-child(3) span{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #ff6700;
+}

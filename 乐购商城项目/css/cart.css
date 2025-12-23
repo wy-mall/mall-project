@@ -1,0 +1,158 @@
+.container{
+  width: 1200px;
+  margin: 0 auto;
+
+  min-width: 1200px;
+}
+body{
+  font-size: 12px;
+}
+a:hover{
+  color: #ff873e;
+  text-decoration: underline;
+}
+.ml30{
+  margin-left: 30px;
+}
+.cf40{
+  color: #f40;
+}
+.mt10{
+  margin-top: 10px;
+}
+.header{
+  margin-bottom: 35px;
+}
+.header .list_header {
+  height: 60px;
+  line-height: 60px;
+  background-color: #f2f2f2;
+}
+/* .header .list_header li:nth-child(even){
+  background-color: yellowgreen;
+} */
+.header .part_line{
+  height: 6px;
+  margin-top: 15px;
+  background-color: #dfdfdf;
+}
+.header .order_content .order_lists{
+    padding: 18px 0;
+    border-bottom: 2px solid #e6e6e6;
+}
+.header  li {
+   float: left;
+}
+.header .list_chk{
+  width: 80px;
+  text-indent: 30px;
+}
+
+.header .list_con{
+  width: 312px;
+}
+.header  .list_info{
+  width: 252px;
+}
+.header  .list_price{
+  width: 130px;
+}
+.header  .list_amount{
+  width: 120px;
+}
+.header  .list_sum{
+  width: 140px;
+}
+.header  .list_op{
+  width: 164px;
+}
+.cartbox  .shop_info{
+  height: 30px;
+  line-height: 30px;
+  background-color: skyblue;
+}
+
+.cartbox  .shop_info input{
+  vertical-align: middle;
+}
+.cartbox   a{
+  color: #333333;
+}
+.cartbox   a:hover{
+  
+  color: #ff873e;
+}
+.header .list_con .list_img{
+  width: 130px;
+  height: 147px;
+  padding-left: 20px;
+  padding-top: 3px;
+  border: 1px solid #e5e5e5;
+  
+}
+.header .list_con img{
+  width: 110px;
+  height: 142px;
+}
+.header .list_con .list_text{
+  width: 160px;
+  /* text-indent: 10px; */
+  padding: 15px 10px 0px 10px;
+  box-sizing: border-box;
+}
+.header .list_con .list_text a{
+  color: #4d4d4d;
+}
+.list_amount .amount_box a{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background-color: #ccc;
+  cursor: pointer;
+  text-decoration: none;
+  user-select: none;
+}
+.cartbox .order_content .list_op a:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+.list_amount .amount_box .sum{
+  width: 50px;
+  height: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.header .btmbox{
+  width: 1200px;
+  height:50px;
+  margin-top: 30px;
+  line-height: 50px;  
+  border: 1px solid #ccc;
+}
+
+.header .btmbox .delallsel{
+  display: inline-block;
+  width: 110px;
+  height: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 50px;
+  text-align: center;
+}
+.header .btmbox p span:nth-child(2){
+  margin: 0px 45px;
+  font-weight: bold;
+}
+
+.header .btmbox .settle_account{
+  display: inline-block;
+  width: 128px;
+  height: 50px;
+  background-color: #f60;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+}
